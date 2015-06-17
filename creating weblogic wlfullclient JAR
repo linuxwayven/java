@@ -1,0 +1,28 @@
+Creating Weblogic wlfullclient.jar
+Creating a wlfullclient.jar for JDK 1.6 client applicationsUse the following steps to create a wlfullclient.jar file for a JDK 1.6 client application:
+
+	1.  Change directories to the server/lib directory.
+cd WL_HOME/server/lib
+
+
+	2.  Use the following command to create wlfullclient.jar in the server/lib directory:
+java -jar wljarbuilder.jar
+
+
+	3.  You can now copy and bundle the wlfullclient.jar with client applications.
+	4.  Add the wlfullclient.jar to the client application’s classpath.
+
+ 
+Creating a wlfullclient5.jar for JDK 1.5 client applications
+
+	1.  Change directories to the server/lib directory.
+cd WL_HOME/server/lib
+
+
+	2.  Use the following command to create wlfullclient.jar in the server/lib directory:
+java -jar wljarbuilder.jar -profile wlfullclient5 
+
+
+	3.  You can now copy and bundle the wlfullclient5.jar with client applications.
+	4.  Add the wlfullclient5.jar to the client application’s classpath.
+
